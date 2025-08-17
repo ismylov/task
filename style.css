@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #2d63b4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+}
+
+
+div {
+    background: rgb(255, 255, 255);
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #a4a4a4;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+.btn {
+    padding: 10px 16px;
+    background: #1877f2;
+    border:#a4a4a4;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.btn:hover:enabled {
+    background: #145dbf;
+}
+
+.btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9fafb;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+
+.list li p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.list li button {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.2s;
+}
+
+.list li button:hover {
+    background: #c0392b;
+}
